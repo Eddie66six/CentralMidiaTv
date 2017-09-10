@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Apresentacao", "1-Apresentacao", "{C8C09152-0AA8-46C2-98E5-9E4F7A596EF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Servico", "2-Servico", "{0D8620E8-20A6-4BF2-9150-E069A4656F37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Aplicacao", "3-Aplicacao", "{15359483-3398-4661-AE6F-E1CC1DD944C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralMidiaTv.Aplicacao", "src\CentralMidiaTv.Aplicacao\CentralMidiaTv.Aplicacao.csproj", "{A984CD17-3510-4169-8A0D-0F221015DAAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Dominio", "4-Dominio", "{ADE82AAF-6A69-45A3-9550-B536AD3F2202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralMidiaTv.Dominio", "src\CentralMidiaTv.Dominio\CentralMidiaTv.Dominio.csproj", "{C26CB44E-3453-487A-A097-CF28B7084BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralMidiaTv.servico", "CentralMidiaTv.servico\CentralMidiaTv.servico.csproj", "{615DE0C3-CB9F-404B-AD76-524923853F3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A984CD17-3510-4169-8A0D-0F221015DAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A984CD17-3510-4169-8A0D-0F221015DAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A984CD17-3510-4169-8A0D-0F221015DAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A984CD17-3510-4169-8A0D-0F221015DAAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C26CB44E-3453-487A-A097-CF28B7084BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26CB44E-3453-487A-A097-CF28B7084BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26CB44E-3453-487A-A097-CF28B7084BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26CB44E-3453-487A-A097-CF28B7084BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{615DE0C3-CB9F-404B-AD76-524923853F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615DE0C3-CB9F-404B-AD76-524923853F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615DE0C3-CB9F-404B-AD76-524923853F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615DE0C3-CB9F-404B-AD76-524923853F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A984CD17-3510-4169-8A0D-0F221015DAAB} = {15359483-3398-4661-AE6F-E1CC1DD944C8}
+		{C26CB44E-3453-487A-A097-CF28B7084BA9} = {ADE82AAF-6A69-45A3-9550-B536AD3F2202}
+		{615DE0C3-CB9F-404B-AD76-524923853F3C} = {0D8620E8-20A6-4BF2-9150-E069A4656F37}
+	EndGlobalSection
+EndGlobal
