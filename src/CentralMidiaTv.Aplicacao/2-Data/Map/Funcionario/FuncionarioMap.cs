@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity.ModelConfiguration;
 
-namespace CentralMidiaTv.Aplicacao._2_Data.Map
+namespace CentralMidiaTv.Aplicacao._2_Data.Map.Funcionario
 {
     public class FuncionarioMap : EntityTypeConfiguration<Dominio.Funcionario.Entidade.Funcionario>
     {
@@ -15,6 +15,9 @@ namespace CentralMidiaTv.Aplicacao._2_Data.Map
             HasOptional(p => p.FuncionarioExclusao)
                 .WithMany(p => p.FuncionariosExcluidos)
                 .HasForeignKey(p => p.IdFuncionarioExclusao);
+            HasOptional(p => p.GrupoLicenciamento)
+                .WithMany(p => p.Funcionarios)
+                .HasForeignKey(p => p.IdGrupoLicenciamento);
         }
     }
 }

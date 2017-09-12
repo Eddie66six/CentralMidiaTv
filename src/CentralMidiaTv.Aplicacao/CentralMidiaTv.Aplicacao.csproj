@@ -101,7 +101,14 @@
     <Compile Include="2-Data\DomainNotification.cs" />
     <Compile Include="2-Data\GerenciadorContexto.cs" />
     <Compile Include="2-Data\Ioc\SimpleInjectContainer.cs" />
-    <Compile Include="2-Data\Map\FuncionarioMap.cs" />
+    <Compile Include="2-Data\Map\Administrativo\AparelhoMap.cs" />
+    <Compile Include="2-Data\Map\Administrativo\TrocaAparelhoMap.cs" />
+    <Compile Include="2-Data\Map\Cliente\CategoriaClienteMap.cs" />
+    <Compile Include="2-Data\Map\Cliente\ClienteMap.cs" />
+    <Compile Include="2-Data\Map\Cliente\PontoMap.cs" />
+    <Compile Include="2-Data\Map\Funcionario\FuncionarioMap.cs" />
+    <Compile Include="2-Data\Map\Funcionario\GrupoLicenciamentoMap.cs" />
+    <Compile Include="2-Data\Map\_Comum\ContatoMap.cs" />
     <Compile Include="2-Data\Repositorio\BaseRepositorio.cs" />
     <Compile Include="2-Data\Repositorio\Funcionario\FuncionarioRepositorio.cs" />
     <Compile Include="2-Data\Repositorio\UnitOfWork.cs" />

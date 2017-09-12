@@ -48,6 +48,7 @@
     <Compile Include="Cliente\Entidade\Ponto.cs" />
     <Compile Include="Funcionario\Aplicacao\IFuncionarioAplicacao.cs" />
     <Compile Include="Funcionario\Entidade\Funcionario.cs" />
+    <Compile Include="Funcionario\Entidade\GrupoLicenciamento.cs" />
     <Compile Include="Funcionario\Enum\ETipoFuncionario.cs" />
     <Compile Include="Funcionario\Repositorio\IFuncionarioRepositorio.cs" />
     <Compile Include="Funcionario\ViewModel\BasicoFuncionario.cs" />

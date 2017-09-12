@@ -10,7 +10,18 @@ namespace CentralMidiaTv.Aplicacao._2_Data
             Configuration.LazyLoadingEnabled = false;
             Configuration.ProxyCreationEnabled = false;
         }
+        //comum
+        public DbSet<Dominio._Comum.Entidade.Contato> Contato { get; set; }
+        //funcionario
         public DbSet<Dominio.Funcionario.Entidade.Funcionario> Funcionario { get; set; }
+        public DbSet<Dominio.Funcionario.Entidade.GrupoLicenciamento> GrupoLicenciamento { get; set; }
+        //cliente
+        public DbSet<Dominio.Cliente.Entidade.Cliente> Cliente { get; set; }
+        public DbSet<Dominio.Cliente.Entidade.Ponto> Ponto { get; set; }
+        public DbSet<Dominio.Cliente.Entidade.CategoriaCliente> CategoriaCliente { get; set; }
+        //administrativo
+        public DbSet<Dominio.Administrativo.Entidade.Aparelho> Aparelho { get; set; }
+        public DbSet<Dominio.Administrativo.Entidade.TrocaAparelho> TrocaAparelho { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             #region config geral
@@ -31,8 +42,18 @@ namespace CentralMidiaTv.Aplicacao._2_Data
                     .IsKey().HasColumnOrder(0));
             #endregion
             #region map
+            //comum
+            modelBuilder.Configurations.Add(new Map._Comum.ContatoMap());
             //funcionario
-            modelBuilder.Configurations.Add(new Map.FuncionarioMap());
+            modelBuilder.Configurations.Add(new Map.Funcionario.FuncionarioMap());
+            modelBuilder.Configurations.Add(new Map.Funcionario.GrupoLicenciamentoMap());
+            //cliente
+            modelBuilder.Configurations.Add(new Map.Cliente.ClienteMap());
+            modelBuilder.Configurations.Add(new Map.Cliente.CategoriaClienteMap());
+            modelBuilder.Configurations.Add(new Map.Cliente.PontoMap());
+            //administrativo
+            modelBuilder.Configurations.Add(new Map.Administrativo.AparelhoMap());
+            modelBuilder.Configurations.Add(new Map.Administrativo.TrocaAparelhoMap());
             #endregion
         }
     }
