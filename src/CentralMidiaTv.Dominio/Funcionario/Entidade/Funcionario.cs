@@ -45,7 +45,7 @@ namespace CentralMidiaTv.Dominio.Funcionario.Entidade
         public virtual List<Funcionario> FuncionariosCadastrados { get; private set; }
         public int? IdFuncionarioExclusao { get; private set; }
         public Funcionario FuncionarioExclusao { get; private set; }
-        public DateTime? DataExclusao { get; set; }
+        public DateTime? DataExclusao { get; private set; }
         public virtual List<Funcionario> FuncionariosExcluidos { get; private set; }
         public virtual List<Contato> Contatos { get; private set; }
         #endregion
