@@ -1,7 +1,6 @@
 ﻿using CentralMidiaTv.Aplicacao._2_Data.Ioc;
 using SimpleInjector.Integration.WebApi;
 using System.Web.Http;
-using System.Web.Http.ExceptionHandling;
 
 namespace CentralMidiaTv.servico
 {

@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Dominio", "4-Dominio", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralMidiaTv.Dominio", "src\CentralMidiaTv.Dominio\CentralMidiaTv.Dominio.csproj", "{C26CB44E-3453-487A-A097-CF28B7084BA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralMidiaTv.servico", "CentralMidiaTv.servico\CentralMidiaTv.servico.csproj", "{615DE0C3-CB9F-404B-AD76-524923853F3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralMidiaTv.servico", "src\CentralMidiaTv.servico\CentralMidiaTv.servico.csproj", "{D1A09D3A-3CA2-4C95-9F34-D8F50BECBA47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +31,10 @@ Global
 		{C26CB44E-3453-487A-A097-CF28B7084BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C26CB44E-3453-487A-A097-CF28B7084BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C26CB44E-3453-487A-A097-CF28B7084BA9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{615DE0C3-CB9F-404B-AD76-524923853F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{615DE0C3-CB9F-404B-AD76-524923853F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{615DE0C3-CB9F-404B-AD76-524923853F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{615DE0C3-CB9F-404B-AD76-524923853F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A09D3A-3CA2-4C95-9F34-D8F50BECBA47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A09D3A-3CA2-4C95-9F34-D8F50BECBA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A09D3A-3CA2-4C95-9F34-D8F50BECBA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A09D3A-3CA2-4C95-9F34-D8F50BECBA47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +42,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A984CD17-3510-4169-8A0D-0F221015DAAB} = {15359483-3398-4661-AE6F-E1CC1DD944C8}
 		{C26CB44E-3453-487A-A097-CF28B7084BA9} = {ADE82AAF-6A69-45A3-9550-B536AD3F2202}
-		{615DE0C3-CB9F-404B-AD76-524923853F3C} = {0D8620E8-20A6-4BF2-9150-E069A4656F37}
+		{D1A09D3A-3CA2-4C95-9F34-D8F50BECBA47} = {0D8620E8-20A6-4BF2-9150-E069A4656F37}
 	EndGlobalSection
 EndGlobal
