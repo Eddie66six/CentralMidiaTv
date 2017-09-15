@@ -1,0 +1,48 @@
+
+<div class="login-container">
+    <div class="row">
+        <div class="col-sm-6">
+            <!-- Errors container -->
+            <div class="errors-container">
+
+            </div>
+            <!-- Add class "fade-in-effect" for login form effect -->
+            <form method="post" role="form" name="formLogin" class="login-form" ng-submit="login()" novalidate="novalidate">
+                <div class="login-header">
+                    <a href="#/app/dashboard-variant-1" class="logo">
+                        <img src="assets/images/logo@2x.png" alt="" width="80" />
+                        <span>log in</span>
+                    </a>
+                    <p>Dear user, log in to access the admin area!</p>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label" for="username">Usuario</label>
+                    <input ng-model="usuario" type="email" class="form-control input-dark" name="username" autocomplete="off" required />
+                    <div ng-messages="formLogin.username.$error" ng-show="formLogin.username.$touched">
+                        <p ng-message="required">Campo obrigatorio</p>
+                        <p ng-message="email">Campo invalido</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="passwd">Senha</label>
+                    <input ng-model="senha" type="password" class="form-control input-dark" name="passwd" autocomplete="off" required />
+                    <div ng-messages="formLogin.passwd.$error" ng-show="formLogin.passwd.$touched">
+                        <p ng-message="required">Campo obrigatorio</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-dark  btn-block text-left">
+                        <i class="fa-lock"></i>
+                        Entrar
+                    </button>
+                </div>
+                <div class="login-footer">
+                    <a href="">Esqueceu sua senha?</a>
+                    <div class="info-links">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

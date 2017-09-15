@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralMidiaTv.Dominio", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralMidiaTv.servico", "src\CentralMidiaTv.servico\CentralMidiaTv.servico.csproj", "{D1A09D3A-3CA2-4C95-9F34-D8F50BECBA47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralMidiaTv.apresentacao.angular", "src\CentralMidiaTv.apresentacao.angular\CentralMidiaTv.apresentacao.angular.csproj", "{6F132774-EB47-4A1D-B7F0-21953CE57776}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,13 +37,19 @@ Global
 		{D1A09D3A-3CA2-4C95-9F34-D8F50BECBA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1A09D3A-3CA2-4C95-9F34-D8F50BECBA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1A09D3A-3CA2-4C95-9F34-D8F50BECBA47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F132774-EB47-4A1D-B7F0-21953CE57776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F132774-EB47-4A1D-B7F0-21953CE57776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F132774-EB47-4A1D-B7F0-21953CE57776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F132774-EB47-4A1D-B7F0-21953CE57776}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{15359483-3398-4661-AE6F-E1CC1DD944C8} = {ADE82AAF-6A69-45A3-9550-B536AD3F2202}
 		{A984CD17-3510-4169-8A0D-0F221015DAAB} = {15359483-3398-4661-AE6F-E1CC1DD944C8}
 		{C26CB44E-3453-487A-A097-CF28B7084BA9} = {ADE82AAF-6A69-45A3-9550-B536AD3F2202}
 		{D1A09D3A-3CA2-4C95-9F34-D8F50BECBA47} = {0D8620E8-20A6-4BF2-9150-E069A4656F37}
+		{6F132774-EB47-4A1D-B7F0-21953CE57776} = {C8C09152-0AA8-46C2-98E5-9E4F7A596EF9}
 	EndGlobalSection
 EndGlobal
